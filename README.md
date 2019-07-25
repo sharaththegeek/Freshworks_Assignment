@@ -21,6 +21,14 @@ So, here I present to you, Country Explorer, made with generic DOM manipulation,
 
 **But Sharath, where are the fancy animations and cool designs that everybody is after?**
 
+While fancy animations and super cool design is the order of the day (or 2019, if trends are anything), this project focuses more on JavaScript execution, implementation and DOM exploration. Design and animations are stories for another day. But hey, the design is nowhere near bad - it features a minimalist design that is pleasing to the eye.
+
+So to sum up:
+
+I am Sharath Sriram, 120003287, CSE, SASTRA Deemed University and as my opening line perfectly says,
+
+JavaScript is ❤️
+
 
 
 
