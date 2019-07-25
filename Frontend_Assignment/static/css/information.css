@@ -1,0 +1,177 @@
+/* Defines the CSS properties for Information DOM */
+
+
+.back{
+    float: left;
+}
+.basics{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 80%;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.information{
+    margin-top: 15px;
+}
+.others{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.language {
+    font-weight: bold;
+}
+.linfo {
+    padding-right: 5px;
+   text-align: center;
+}
+.currency {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.money {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.cinfo {
+    padding-right: 5px;
+    font-family: sans-serif;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+}
+.more{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 80%;
+    margin-top: 10px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+/* Phones - legacy Android phones, iPhone SE */
+@media only screen and (max-width: 600px) {
+   .back{
+    height: 15px;
+    width: 15px;
+   }
+   .flag{
+       height: 20px;
+       width: 20px;
+   }
+   .result-body {
+       text-align: center;
+   }
+   .more {
+       text-align: center;
+   }
+} 
+
+/* Phones - bigger screens */
+@media only screen and (min-width: 600px) {
+    .back{
+        height: 30px;
+        width: 30px;
+       }
+       .flag{
+        height: 25px;
+        width: 25px;
+    }
+    .result-body {
+        text-align: center;
+    }
+    .more {
+        text-align: center;
+    }
+} 
+
+/* iPads, Surface Go, random Windows and Android tablets */
+@media only screen and (min-width: 768px) {
+    .back{
+        height: 30px;
+        width: 30px;
+       }
+       .flag{
+        height: 30px;
+        width: 30px;
+    }
+    .titles{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 40px;
+    }
+    .showstop {
+       display: flex;
+       flex-direction: column;
+    }
+    .textwonder {
+        padding-left: 20px;
+    }
+    
+} 
+
+/* Laptops */
+@media only screen and (min-width: 992px) {
+    .back{
+        height: 30px;
+        width: 30px;
+       }
+       .flag{
+        height: 40px;
+        width: 40px;
+    }
+    .titles{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 40px;
+    }
+    .showstop {
+       display: flex;
+       flex-direction: column;
+    }
+    .textwonder {
+        padding-left: 20px;
+    }
+    
+} 
+
+/* PC Monitors */
+@media only screen and (min-width: 1200px) {
+    .back{
+        height: 30px;
+        width: 30px;
+       }
+       .flag{
+        height: 40px;
+        width: 40px;
+    }
+    .titles{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+    }
+    .showstop {
+       display: flex;
+       flex-direction: column;
+    }
+    .textwonder {
+        padding-left: 20px;
+    }
+    
+}
