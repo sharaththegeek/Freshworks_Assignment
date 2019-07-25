@@ -6,7 +6,7 @@ This is a Single Page App Implementation made with DOM manipulation using vanill
 
 On opening explorer.html, which is the only right thing to do (apart from reading this documentation), you are presented with a minimal design featuring a search box. 
 
-Start typing and watch the magic happens. Throttle based autocomplete recognition, as performed by most modern search engines happens and provides you with the list of countries that match the words you have typed. This eliminates the need for you to click on an actual "Search" button. 
+Start typing (at least three letters) and watch the magic happens. Throttle based autocomplete recognition, as performed by most modern search engines happens and provides you with the list of countries that match the words you have typed. This eliminates the need for you to click on an actual "Search" button. 
 
 Click on any entry you like and it takes you to an Information View which displays further information about the country you clicked. You can then go back to the previous page with the back button present on the page. 
 
